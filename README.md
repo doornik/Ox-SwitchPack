@@ -28,4 +28,4 @@ Please reference the above paper when using this code.
   - `trace_plots.ox`: Ox program to make evaluation plots of the more extensive output
   that is generated in the trace folder when switching_coint.ox is run with trace switched on.
 4. Output
-- the `output' folder has the results of some of my runs of the code.
+- the `output` folder has the results of some of my runs of the code.
