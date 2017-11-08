@@ -1,0 +1,105 @@
+--------------- Ox at 17:36:27 on 03-Aug-2017 ---------------
+
+Ox Professional version 7.20 (OS_X_64/U/MT) (C) J.A. Doornik, 1994-2017
+Poisson-mixture None M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+      2081      2081      2082         0      .NaN     58.90
+Poisson-mixture L1Step M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        52        52       200         0      .NaN      3.16
+Poisson-mixture L1Step* M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        38        75       142         0      .NaN      2.62
+Poisson-mixture LSqS3 M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        53       154       105         0      .NaN      3.42
+Poisson-mixture LgSqS3 M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        85       251       171         0      .NaN      5.55
+Poisson-mixture LParabolic M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        37        70       258         0      .NaN      3.30
+Poisson-mixture LBrent M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        54        54       225         0      .NaN      3.76
+Poisson-mixture LPowell M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        52        52       161         0      .NaN      4.07
+Poisson-mixture LQStep M=5000
+     iters   updates   logliks  failures     below    CPU(s)
+        51        51       135         0      .NaN      2.65
+		
+Multivariate-t None PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+       102       102       103         0      .NaN     19.83
+Multivariate-t L1Step PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+        31        31       105         0      .NaN     11.06
+Multivariate-t L1Step* PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+        22        44        72         0      .NaN     10.31
+Multivariate-t LgSqS3 PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+        15        45        34         0      .NaN      8.14
+Multivariate-t LParabolic PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+        22        41       108         0      .NaN     11.26
+Multivariate-t LBrent PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+        38        38       147         0      .NaN     14.92
+Multivariate-t LPowell PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+        32        32        74         0      .NaN      9.14
+Multivariate-t LQStep PX=1 M=1000 p=50 T=100 no params=1325
+     iters   updates   logliks  failures     below    CPU(s)
+        32        32        80         0      .NaN      9.58
+		
+Parafac None I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+     38736     38736     38737         0      .NaN    266.41
+Parafac L1Step I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+       245       245       989         0      .NaN      3.14
+Parafac L1Step* I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+       170       340       689         0      .NaN      2.93
+Parafac LgSqS3 I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+       912      2758      1847         0      .NaN     17.38
+Parafac LParabolic I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+       269       538      2148         0      .NaN      6.09
+Parafac LBrent I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+     13183     13183     53494         0      .NaN    159.01
+Parafac LPowell I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+      1342      1342      3738         0      .NaN     14.90
+Parafac LQStep I=J=K=20 F=5 M=100 concentrate=0 sigma=0.1
+     iters   updates   logliks  failures     below    CPU(s)
+       282       282       767         0      .NaN      3.25
+LowRank None n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+       178       178       179         0      .NaN     30.16
+	   
+LowRank L1Step n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+        39        39       149         0      .NaN      5.90
+LowRank L1Step* n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+        27        55       101         0      .NaN      7.96
+LowRank LgSqS3 n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+        17        53        36         0      .NaN      8.25
+LowRank LParabolic n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+        27        53       165         0      .NaN      8.11
+LowRank LBrent n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+        58        58       238         0      .NaN      8.89
+LowRank LPowell n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+        41        41       102         0      .NaN      6.15
+LowRank LQStep n=200 q=s=20 rank=5 M=100
+     iters   updates   logliks  failures     below    CPU(s)
+        41        41       108         0      .NaN      5.95
