@@ -273,7 +273,7 @@ main()
 	// 1. S=3,P=1: methods converge to different stationary points
 	// 2. S=3,P=1: why does parabolic have failures?
 	foreach (decl ls in als0)
-		mlogdets ~=	RunGXM(ls, 100, 10000, 3, 1)[][0];
+		mlogdets ~=	RunGXM(ls, 100, 1000, 3, 1)[][0];
 
 	decl mgap = fabs(mlogdets - maxr(mlogdets));
 	// print the largest deviation from the maximum over all methods
